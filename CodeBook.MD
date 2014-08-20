@@ -1,6 +1,20 @@
 CodeBook for Getting and Cleaning Data Project
 ==============================================
 
+### Description
+
+### Source Data
+
+A full description of the data used in this project can be found at [The UCI Machine Learning Repository]
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+The source data for this project can be downloaded from:
+
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+
+
 Variables used running the script and values obtained for each:
 
 activities_labels_table     6 obs. of 2 variables
