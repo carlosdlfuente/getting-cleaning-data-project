@@ -45,9 +45,9 @@ To run the script, you must do:
  -   Create test and train tables binding columns of Subject, Y and X tables and assign names of columns
  -   Merge test and train tables by subject column
  -   Assign descriptive activity names to name of the activities in the tidy table
- -   Write to file tidy data table as tidy.txt
+ -   Write to file tidy data table as "tidy.txt" (output)
  -   Calculate the average of each variable for each activity and each subject
- -   Write to file tidy_mean table as "tidy_mean.txt"
+ -   Write to file tidy_mean table as "tidy_mean.txt" (output)
 
 Additional information
 ----------------------
