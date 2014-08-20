@@ -36,9 +36,9 @@ To run the script, you must do:
 - Script "run_analysis.R" setup your working directory to this path.
 - Download at "/UCI HAR Dataset" sub-directory created, the "run_analysis.R" script.
 - Run the R script from R Studio. This script does the following:
--   Clean up environment variables
--   Set your working directory
--   read activity files and create activity table
+ -   Clean up environment variables
+ -   Set your working directory
+ -   read activity files and create activity table
 -   read and select 'main' and 'std' columns from "features.txt" file. Get number and names of columns.
 -   read "test.txt" files
 -   read "train.txt" files
