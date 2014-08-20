@@ -49,6 +49,11 @@ To run the script, you must do:
  -   Write to file tidy data table as "tidy.txt" (output)
  -   Calculate the average of each variable for each activity and each subject
  -   Write to file tidy_mean table as "tidy_mean.txt" (output)
+    
+Output
+------
+
+You can see the output files "tidy.txt" and "tidy_mean.txt" within output directory.
 
 Additional information
 ----------------------
