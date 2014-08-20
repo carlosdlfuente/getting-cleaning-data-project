@@ -38,17 +38,21 @@ To run the script, you must do:
 - Run the R script from R Studio. This script does the following:
  -   Clean up environment variables
  -   Set your working directory
- -   read activity files and create activity table
--   read and select 'main' and 'std' columns from "features.txt" file. Get number and names of columns.
--   read "test.txt" files
--   read "train.txt" files
--   Create test and train tables binding columns of Subject, Y and X tables and assign names of columns
--   Merge test and train tables by subject column
--   Assign descriptive activity names to name of the activities in the tidy table
--   Write to file tidy data table as tidy.txt
--   Calculate the average of each variable for each activity and each subject
--   Write to file tidy_mean table as "tidy_mean.txt"
+ -   Read activity files and create activity table
+ -   Read and select 'main' and 'std' columns from "features.txt" file. Get number and names of columns.
+ -   Read "test.txt" files
+ -   Read "train.txt" files
+ -   Create test and train tables binding columns of Subject, Y and X tables and assign names of columns
+ -   Merge test and train tables by subject column
+ -   Assign descriptive activity names to name of the activities in the tidy table
+ -   Write to file tidy data table as tidy.txt
+ -   Calculate the average of each variable for each activity and each subject
+ -   Write to file tidy_mean table as "tidy_mean.txt"
 
+Additional information
+----------------------
+
+Read CodeBook.MD file to find additional information about variables, data and transformations.
 
 
 
