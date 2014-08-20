@@ -17,7 +17,8 @@ The source data for this project can be downloaded from:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-
+Variables
+---------
 
 Variables used running the script and values obtained for each:
 
