@@ -29,5 +29,26 @@ The script "run_analysis.R" does the following:
 - Uses descriptive activity names to name the activities in the data set
 - Appropriately labels the data set with descriptive variable names. 
 - Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+ 
+To run the script, you must do:
+
+- Download and unzip the raw data files within a directory named 'project-crd' into your working directory and preserve the same directoy structure. "/UCI HAR Dataset" sub-directory will be created.
+- Script "run_analysis.R" setup your working directory to this path.
+- Download at "/UCI HAR Dataset" sub-directory created, the "run_analysis.R" script.
+- Run the R script from R Studio. This script does the following:
+-   Clean up environment variables
+-   Set your working directory
+-   read activity files and create activity table
+-   read and select 'main' and 'std' columns from "features.txt" file. Get number and names of columns.
+-   read "test.txt" files
+-   read "train.txt" files
+-   Create test and train tables binding columns of Subject, Y and X tables and assign names of columns
+-   Merge test and train tables by subject column
+-   Assign descriptive activity names to name of the activities in the tidy table
+-   Write to file tidy data table as tidy.txt
+-   Calculate the average of each variable for each activity and each subject
+-   Write to file tidy_mean table as "tidy_mean.txt"
+
+
 
 
