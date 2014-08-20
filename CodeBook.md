@@ -40,6 +40,21 @@ Variables used running the script and values obtained for each:
 - columns_name                79 elements: contains the name of variables that contains "main" and "std" in its names.
 - columns_number              79 elements: contains position column of variables selected
 - i, j, k, row                variables for loops
+ 
+Activity labels
+---------------
+
+- WALKING             1
+- WALKING_UPSTAIRS    2
+- WALKING_DOWNSTAIRS  3
+- SITTING             4
+- STANDING            5
+- LAYING              6
+
+Subject ID
+----------
+
+ID of each participant on the experiment. First variable at raw data "subject_test" and "subject_train" files.
 
 Steps to get tidy dataset
 -------------------------
